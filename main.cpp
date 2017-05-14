@@ -23,7 +23,6 @@ void Print(char* text, int n, ...)
 
 int main()
 {
-	//setlocale(LC_ALL, "rus");
 	double x[10];
 	double r[10];
 	char text[1000];
