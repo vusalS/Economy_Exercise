@@ -3,7 +3,7 @@
 #pragma warning(disable:4996)
 using namespace std;
 
-fstream ofs("RESULT.txt", fstream::out);
+fstream ofs("result.txt", fstream::out);
 
 void Print(char* text, int n, ...)
 {
@@ -23,7 +23,7 @@ void Print(char* text, int n, ...)
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
+	//setlocale(LC_ALL, "rus");
 	double x[10];
 	double r[10];
 	char text[1000];
